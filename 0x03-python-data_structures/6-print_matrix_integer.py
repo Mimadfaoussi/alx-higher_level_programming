@@ -6,4 +6,5 @@ def print_matrix_integer(matrix=[[]]):
         for line in matrix:
             for elm in line:
                 print("{:d}".format(elm), end=' ')
-            print("{}".format())
+                if (elm == line[len(line - 1)]):
+                    print()
