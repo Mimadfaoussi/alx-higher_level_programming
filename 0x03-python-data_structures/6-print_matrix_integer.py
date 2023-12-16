@@ -5,6 +5,8 @@ def print_matrix_integer(matrix=[[]]):
     else:
         for line in matrix:
             for elm in line:
-                print("{:d}".format(elm), end=' ')
+                print("{:d}".format(elm), end='')
+                if (elm != line[-1]):
+                    print(" ", end='')
                 if (elm == line[len(line) - 1]):
                     print()
