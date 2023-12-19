@@ -12,10 +12,12 @@ def common_elements(set_1, set_2):
 def only_diff_elements(set_1, set_2):
     common = common_elements(set_1, set_2)
     diff = set()
-    print(common)
-    for elm, elm2 in zip(set_1, set_2):
-        if elm not in common:
-            diff.add(elm)
-        if elm2 not in common:
-            diff.add(elm2)
+    for i in set_1:
+        if i not in common:
+            diff.add(i)
+    for i in set_2:
+        if i not in common:
+            diff.add(i)
     return (diff)
+
+
