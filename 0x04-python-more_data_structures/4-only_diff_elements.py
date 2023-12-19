@@ -19,5 +19,3 @@ def only_diff_elements(set_1, set_2):
         if i not in common:
             diff.add(i)
     return (diff)
-
-
