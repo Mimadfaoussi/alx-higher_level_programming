@@ -40,11 +40,14 @@ class Square:
         return (self.__size ** 2)
 
     def my_print(self):
+        height = 0
         if (self.__size == 0):
             print("")
         for i in range(0, self.__size):
-            for x in range(0, self.__position[0]):
-                print("_", end="")
+            if (height < self.position[1]):
+                for x in range(0, self.__position[0]):
+                    print("_", end="")
+                height += 1
             for j in range(0, self.__size):
                 print("#", end="")
             print("")
