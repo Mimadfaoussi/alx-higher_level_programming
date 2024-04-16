@@ -64,7 +64,7 @@ file.close()
 
 #### How to read a file line by line :
 
-<p> You can read a file line by line using a loop or the readline() method. </p>
+<p> You can read a file line by line using a loop  </p>
 
 
 ```
@@ -74,3 +74,45 @@ for line in file:
 file.close()
 
 ```
+<p> or the readline() method. </p>
+
+```
+print(f.readline())
+
+```
+
+#### How to move the cursor in a file :
+
+```
+file = open('filename.txt', 'r')  # Opens the file in read mode
+file.seek(10)  # Moves the cursor to the 10th byte in the file
+data = file.read()
+print(data)
+file.close()
+
+```
+
+#### How to make sure a file is closed after using it :
+
+<p>we can use the with statement to ensure that a file is automatically closed after using it. </p>
+
+```
+with open('filename.txt', 'r') as file:
+    content = file.read()
+    print(content)
+# File is automatically closed after exiting the 'with' block
+
+```
+
+#### What is and how to use the with statement :
+
+<p>The with statement in Python is used to simplify exception handling and resource management. It ensures that a cleanup action is performed after the block of code is executed.</p>
+
+#### What is JSON :
+<p>JSON (JavaScript Object Notation) is a lightweight data interchange format that is easy for humans to read and write and easy for machines to parse and generate. It is commonly used for transmitting data between a server and a web application.</p>
+
+#### What is serialization :
+<p>Serialization is the process of converting a data structure or object into a format that can be easily stored, transmitted, or reconstructed later.</p>
+
+#### What is deserialization :
+<p>Deserialization is the process of converting data that has been serialized back into its original form.</p>
