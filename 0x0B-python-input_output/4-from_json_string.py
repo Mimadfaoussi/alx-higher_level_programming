@@ -5,4 +5,4 @@ import json
 
 def from_json_string(my_str):
     """ we're converting JSON string to python data structure """
-    return (json.loads(json_string))
+    return (json.loads(my_str))
