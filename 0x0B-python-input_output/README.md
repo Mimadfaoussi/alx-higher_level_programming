@@ -116,3 +116,28 @@ with open('filename.txt', 'r') as file:
 
 #### What is deserialization :
 <p>Deserialization is the process of converting data that has been serialized back into its original form.</p>
+
+#### How to convert a Python data structure to a JSON string :
+<p> we can use the json.dumps() function to convert a Python data structure to a JSON string .</p>
+
+```
+import json
+
+data = {'name': 'John', 'age': 30, 'city': 'New York'}
+json_string = json.dumps(data)
+print(json_string)
+
+```
+
+#### How to convert a JSON string to a Python data structure :
+<p> You can use the json.loads() function to convert a JSON string to a Python data structure. </p>
+
+```
+import json
+
+json_string = '{"name": "John", "age": 30, "city": "New York"}'
+data = json.loads(json_string)
+print(data)
+
+```
+
