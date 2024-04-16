@@ -157,3 +157,10 @@ def load_from_json_file(filename):
     with open(filename) as file:
         return json.load(file)
 ```
+
+#### Class to JSON :
+
+```
+return obj.__dict__
+
+```
