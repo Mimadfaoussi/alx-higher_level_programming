@@ -1,14 +1,16 @@
 # 0x04. Python - More Data Structures: Set, Dictionary
 
-## Resources :
+### Resources :
 
-### Read or watch:
+#### Read or watch:
 
-<a href="https://docs.python.org/3/tutorial/datastructures.html" >Data structures</a>
-<a href="https://python-course.eu/advanced-python/lambda-filter-reduce-map.php" >Lambda, filter, reduce and map</a>
-<a href="https://www.youtube.com/watch?v=1GAC6KQUPeg" >Learn to Program 12 Lambda Map Filter Reduce</a>
+<p><a href="https://docs.python.org/3/tutorial/datastructures.html" >Data structures</a></p>
 
-## Learning Objectives :
+<p><a href="https://python-course.eu/advanced-python/lambda-filter-reduce-map.php" >Lambda, filter, reduce and map</a></p>
+
+<p><a href="https://www.youtube.com/watch?v=1GAC6KQUPeg" >Learn to Program 12 Lambda Map Filter Reduce</a></p>
+
+### Learning Objectives :
 
 <ul>
   <li>Why Python programming is awesome</li>
@@ -24,7 +26,7 @@
   <li>What are the map, reduce and filter functions</li>
 </ul>
 
-## My Documentation : 
+### My Documentation : 
 
 ### Why Python programming is awesome :
 
