@@ -87,3 +87,38 @@ my_dict = {'name': 'John', 'age': 30, 'city': 'New York'}
     </li>
 
 </ul>
+
+### How to iterate over a dictionary : 
+
+```
+for key, value in my_dict.items():
+    print(key, value)
+
+```
+
+### What is a lambda function :
+
+<p> A lambda function is a small anonymous function defined using the lambda keyword. It can take any number of arguments but can only have one expression. </p>
+
+### What are the map, reduce, and filter functions :
+
+<ul>
+  <li>map(): Applies a function to all the items in an input list and returns a new list with the results.</li>
+  <li>reduce(): Applies a rolling computation to sequential pairs of values in a list until only one value remains.</li>
+  <li>filter(): Filters out elements from a list based on a condition defined by a function.</li>
+</ul>
+
+```
+numbers = [1, 2, 3, 4, 5]
+
+# Using map()
+squared = list(map(lambda x: x**2, numbers))
+
+# Using reduce()
+from functools import reduce
+product = reduce(lambda x, y: x * y, numbers)
+
+# Using filter()
+even_numbers = list(filter(lambda x: x % 2 == 0, numbers))
+
+```
