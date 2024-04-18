@@ -4,9 +4,9 @@
 
 ### Read or watch:
 
-<h1>Data structures</h1>
-<p>Lambda, filter, reduce and map</p>
-<p>Learn to Program 12 Lambda Map Filter Reduce</p>
+<a href="https://docs.python.org/3/tutorial/datastructures.html" >Data structures</a>
+<a href="https://python-course.eu/advanced-python/lambda-filter-reduce-map.php" >Lambda, filter, reduce and map</a>
+<a href="https://www.youtube.com/watch?v=1GAC6KQUPeg" >Learn to Program 12 Lambda Map Filter Reduce</a>
 
 ## Learning Objectives :
 
@@ -122,3 +122,4 @@ product = reduce(lambda x, y: x * y, numbers)
 even_numbers = list(filter(lambda x: x % 2 == 0, numbers))
 
 ```
+
