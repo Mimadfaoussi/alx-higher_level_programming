@@ -100,6 +100,12 @@ for key, value in my_dict.items():
 
 <p> A lambda function is a small anonymous function defined using the lambda keyword. It can take any number of arguments but can only have one expression. </p>
 
+```
+addition = lambda x, y: x + y
+print(addition(2, 3))  # Output: 5
+
+```
+
 ### What are the map, reduce, and filter functions :
 
 <ul>
