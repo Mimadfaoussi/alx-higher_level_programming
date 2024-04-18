@@ -2,8 +2,6 @@
 
 ### Resources :
 
-#### Read or watch:
-
 <p><a href="https://docs.python.org/3/tutorial/datastructures.html" >Data structures</a></p>
 
 <p><a href="https://python-course.eu/advanced-python/lambda-filter-reduce-map.php" >Lambda, filter, reduce and map</a></p>
