@@ -2,6 +2,6 @@
 
 exports.converter = function (base) {
   return function (number) {
-    number.toString(base);
+    return number.toString(parseInt(base));
   };
 };
