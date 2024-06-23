@@ -1,4 +1,4 @@
-#!/bin/python3
+#!/usr/bin/python3
 """ prints the first object from the database """
 from model_state import Base, State
 from sqlalchemy.orm import sessionmaker
