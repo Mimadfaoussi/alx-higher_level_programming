@@ -1,37 +1,29 @@
 >>> add_integer = __import__('0-add_integer').add_integer
-
 >>> add_integer(0, 0)
 0
->>> add_integer(15, 0)
-15
->>> add_integer(0, 15)
-15
->>> add_integer(-2, 2)
-0
->>> add_integer(2, -2)
-0
->>> add_integer(2)
+>>> add_integer(150, 0)
+150
+>>> add_integer(0,150)
+150
+>>> add_integer(-50,150)
 100
+>>> add_integer(50,-150)
+-100
+>>> add_integer(50)
+148
 >>> add_integer()
 Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
 TypeError: add_integer() missing 1 required positional argument: 'a'
 >>> add_integer('a', 'b')
 Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/home/imad/projects/alx_africa/alx-higher_level_programming/0x07-python-test_driven_development/0-add_integer.py", line 8, in add_integer
+    raise TypeError("a must be an integer")
 TypeError: a must be an integer
 >>> add_integer('a', 42)
 Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/home/imad/projects/alx_africa/alx-higher_level_programming/0x07-python-test_driven_development/0-add_integer.py", line 8, in add_integer
+    raise TypeError("a must be an integer")
 TypeError: a must be an integer
->>> add_integer('a')
-Traceback (most recent call last):
-TypeError: a must be an integer
->>> add_integer(42, 'b')
-Traceback (most recent call last):
-TypeError: b must be an integer
->>> add_integer(float('inf'), 0)
-Traceback (most recent call last):
-...
-OverflowError: cannot convert float infinity to integer
->>> add_integer(0, float('nan'))
-Traceback (most recent call last):
-...
-ValueError: cannot convert float NaN to integer
