@@ -1,6 +1,8 @@
 #!/usr/bin/python3
-""" send a request to the url and display body
-response or error if its >= 400 """
+"""
+send a request to the url and display body
+response or error if its >= 400
+"""
 import requests
 import sys
 
